@@ -24,9 +24,8 @@
 /rtl
 │
 ├── color_bar.v // 顶层模块（含以下子模块实例化）
-│ ├── clk_hdmi // HDMI时钟生成（74.25MHz）
-│ ├── vga_ctrl // 彩条生成与时序控制
-│ └── sii9134_top // SiI9134配置引擎
-│ └── sii9134_cfg.v // I²C配置模块（核心修正点）
+  ├── clk_hdmi // HDMI时钟生成（74.25MHz）
+  ├── vga_ctrl // 彩条生成与时序控制
+  └── sii9134_top // SiI9134配置引擎
+  └── sii9134_cfg.v // I²C配置模块（核心修正点）
 
-# SiI9134_clor_bar
